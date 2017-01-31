@@ -42,8 +42,7 @@ public class Game {
         return false;
     }
     /**
-     * Get that user's input is too big or small.
-     * @return the String of hint
+     * Print a hint to show user's input is too big or small.
      */
     public void getHint(){
         if(input > secret)
