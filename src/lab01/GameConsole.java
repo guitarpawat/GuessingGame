@@ -14,9 +14,9 @@ public class GameConsole {
      */
     public int play(Game game){
         int input;
+        System.out.println("Guessing Game");
         System.out.println("I'm thinking of a number between 1 and 20.");
         Scanner in = new Scanner(System.in);
-        System.out.println("Guessing Game");
         while(true){
             System.out.print("Your guess? : ");
             input = in.nextInt();

@@ -39,18 +39,17 @@ public class Game {
             return true;
         else
             getHint();
-            System.out.println(getHint());
         return false;
     }
     /**
      * Get that user's input is too big or small.
      * @return the String of hint
      */
-    public String getHint(){
+    public void getHint(){
         if(input > secret)
-            return "Number is too big...";
+            System.out.println("Number is too big...");
         else
-            return "Number is too small...";
+            System.out.println("Number is too small...");
     }
     public int getCount(){
         return count;
