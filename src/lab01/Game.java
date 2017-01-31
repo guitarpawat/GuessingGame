@@ -37,8 +37,7 @@ public class Game {
         count++;
         if(number == secret)
             return true;
-        else
-            getHint();
+        getHint();
         return false;
     }
     /**
